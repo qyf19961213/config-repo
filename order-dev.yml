@@ -17,4 +17,4 @@ eureka:
 server:
   port: 8763
 env:
-  test7
+  test9
