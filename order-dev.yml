@@ -8,7 +8,13 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    hostname: order
 server:
   port: 8763
 env:
-  test3
+  test
